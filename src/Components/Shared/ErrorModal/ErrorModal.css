@@ -1,0 +1,19 @@
+.errorModal__conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5rem;
+}
+
+.errorModal__conatiner svg {
+  color: #e01e37;
+  font-size: 4rem;
+}
+
+.errorModal__conatiner span {
+  color: #e01e37;
+  font-size: 2rem;
+  font-weight: 500;
+}

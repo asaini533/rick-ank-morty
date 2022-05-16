@@ -1,0 +1,40 @@
+.character__info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  font-weight: 400;
+}
+
+.character__info,
+.character__origin,
+.character__location-content,
+.character__location-dimension {
+  margin-bottom: 15px;
+}
+
+.character__info span,
+.character__origin span,
+.character__location span,
+.character__chapters span {
+  color: #757575;
+  font-weight: 300;
+}
+
+.character__origin p,
+.character__location p {
+  font-weight: 500;
+}
+
+.character__location-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.character__chapters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
